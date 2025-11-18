@@ -23,7 +23,8 @@ public class PlayerInput : MonoBehaviour
     }
 
     private void Update() {
-        if (gameManager.gameMode != GameManager.GameMode.Local && gameManager.isWhitesTurn != gameManager.startPlayerIsWhite){
+        if (gameManager.gameMode != GameManager.GameMode.Local && gameManager.isWhitesTurn != gameManager.startPlayerIsWhite && gameManager.gameMode != GameManager.GameMode.Network){ //NOTE: ADD NETWORK
+            Debug.Log("Log");
             return;
         }
         

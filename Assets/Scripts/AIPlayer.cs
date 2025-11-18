@@ -45,6 +45,7 @@ public class AIPlayer : MonoBehaviour
 
         // Setup Stockfish
         SetupStockfish();
+        //UnityEngine.Debug.LogWarning("Stockfish not setting up!");
     }
 
     private void Update() {

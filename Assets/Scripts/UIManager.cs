@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
         playerBlack.root.localPosition = Vector3.zero;
     }
 
-    public void AddCapturedPiece(int piece, bool isWhite){
+    public void AddCapturedPiece(int piece, bool isWhite){ //NOTE: Network this
         PlayerUI player = isWhite ? playerBlack : playerWhite;
 
         GameObject capture = Instantiate(capturePrefab);
@@ -57,7 +57,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void OpenWinMenu(string header, string text){
+    public void OpenWinMenu(string header, string text){ //NOTE: Network this
         winHeader.text = header;
         winText.text = text;
 
@@ -83,7 +83,7 @@ public class UIManager : MonoBehaviour
         playerBlack.name.text = blackName;
     }
 
-    public void UpdateTimer(bool playerIsWhite, float time){
+    public void UpdateTimer(bool playerIsWhite, float time){ //NOTE: network this
         int minutes = (int)time / 60;
         int seconds = (int)time % 60;
 

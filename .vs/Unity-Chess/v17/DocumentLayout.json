@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|c:\\users\\aparkh300\\documents\\github\\unity-chess\\assets\\scripts\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\boardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\buttongroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttongroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\moveshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\coord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\assets\\scripts\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36924959-738D-5346-FF80-9C030E0C43AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoardUI.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\BoardUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoardUI.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\BoardUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoardUI.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:18.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:18.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:18.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\AIPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AIPlayer.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\AIPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AIPlayer.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv0wAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:17.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Theme.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Theme.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Theme.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Theme.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Theme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:17.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInput.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\PlayerInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:17.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ButtonGroup.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\ButtonGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonGroup.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\ButtonGroup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:16.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\MovesHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovesHandler.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\MovesHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:16.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Board.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Board.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:16.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Coord.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Coord.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Coord.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Coord.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Coord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:15.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Move.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:15.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThemeSelector.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\ThemeSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ThemeSelector.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\ThemeSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ThemeSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:15.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Piece.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Piece.cs",
+              "ToolTip": "C:\\Users\\aparkh300\\Documents\\GitHub\\Unity-Chess\\Assets\\Scripts\\Piece.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Piece.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:22:14.817Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

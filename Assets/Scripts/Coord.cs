@@ -10,6 +10,8 @@ public class Coord
     [Tooltip("Vertical")]
     public int file;
 
+    //NOTE: add render bool for anims? or should this be in Piece?
+
     public Coord(int rank, int file){
         this.rank = rank;
         this.file = file;

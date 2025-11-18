@@ -2,6 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Notes
+//-When network is clicked, player can host or join
+//-Host waits until player joins, the first player who joins is assigned to play, any others will only be able to use the chat (create a lobby system for friends? League system/match ups?)
+//-Host and player are assigned random colours and turn functionality begins with white
+
+
+//-Check if board is consistent on all clients after every turn
+//-Update timer on the network
+//-Network theme? Or specifically don't so players can have different themes
+
 public class GameManager : MonoBehaviour
 {
     // Script References
@@ -15,7 +25,8 @@ public class GameManager : MonoBehaviour
     public enum GameMode {
         Local,
         Computer,
-        Stockfish
+        Stockfish,
+        Network
     }
 
     public GameMode gameMode;
@@ -85,7 +96,7 @@ public class GameManager : MonoBehaviour
         isWhitesTurn = true;
 
         // Make starting move if AI is white
-        if (gameMode != GameMode.Local && isWhitesTurn != startPlayerIsWhite){
+        if (gameMode != GameMode.Local && gameMode != GameMode.Network && isWhitesTurn != startPlayerIsWhite){
             if (gameMode == GameMode.Computer){
                 aiPlayer.MakeAIMove();
             } else{
@@ -116,7 +127,7 @@ public class GameManager : MonoBehaviour
         if (board.GetAllLegalMoves(movesHandler, !isWhitesTurn).Count == 0){
             // If checkmate, stop game
             gameRunning = false;
-            isWhitesTurn = true;
+            //isWhitesTurn = true;
             canStartGame = true;
 
             // Open win menu UI with message based on who won
@@ -130,6 +141,9 @@ public class GameManager : MonoBehaviour
                         break;
                     case GameMode.Stockfish:
                         uiManager.OpenWinMenu("You won!", "You won by checkmate");
+                        break;
+                    case GameMode.Network:
+                        uiManager.OpenWinMenu("White won!", "White won by checkmate");
                         break;
                     default:
                         break;
@@ -145,6 +159,9 @@ public class GameManager : MonoBehaviour
                     case GameMode.Stockfish:
                         uiManager.OpenWinMenu("Stockfish won!", "It won by checkmate");
                         break;
+                    case GameMode.Network:
+                        uiManager.OpenWinMenu("Black won!", "Black won by checkmate");
+                        break;
                     default:
                         break;
                 }
@@ -155,7 +172,7 @@ public class GameManager : MonoBehaviour
         isWhitesTurn = !isWhitesTurn;
 
         // If AI's turn, make AI move
-        if (gameMode != GameMode.Local && isWhitesTurn != startPlayerIsWhite){
+        if ((gameMode != GameMode.Local && gameMode != GameMode.Network) && isWhitesTurn != startPlayerIsWhite){
             if (gameMode == GameMode.Computer){
                 aiPlayer.MakeAIMove();
             } else{
@@ -168,7 +185,7 @@ public class GameManager : MonoBehaviour
         boardUI.ResetAllSquareColors();
     }
 
-    private void UpdateTimer(){
+    private void UpdateTimer(){ //NOTE: Network this
         // Reduce current player's time
         if (isWhitesTurn){
             whitesTimeLeft -= Time.deltaTime;
@@ -186,6 +203,9 @@ public class GameManager : MonoBehaviour
                         break;
                     case GameMode.Stockfish:
                         uiManager.OpenWinMenu("Stockfish won!", "It won by time");
+                        break;
+                    case GameMode.Network:
+                        uiManager.OpenWinMenu("Black won!", "Black won by time");
                         break;
                     default:
                         break;
@@ -207,6 +227,9 @@ public class GameManager : MonoBehaviour
                         break;
                     case GameMode.Stockfish:
                         uiManager.OpenWinMenu("You won!", "You won by time");
+                        break;
+                    case GameMode.Network:
+                        uiManager.OpenWinMenu("White won!", "White won by time");
                         break;
                     default:
                         break;
@@ -233,6 +256,10 @@ public class GameManager : MonoBehaviour
             case "Stockfish":
                 gameMode = GameMode.Stockfish;
                 uiManager.SetNames("Player", "Stockfish");
+                break;
+            case "Network":
+                gameMode = GameMode.Network;
+                uiManager.SetNames("Player White", "Player Black"); //NOTE: Add user names?
                 break;
             default:
                 return;
@@ -282,6 +309,9 @@ public class GameManager : MonoBehaviour
                 break;
             case GameMode.Stockfish:
                 uiManager.OpenWinMenu("Stockfish won!", "It won by resignation");
+                break;
+            case GameMode.Network:
+                uiManager.OpenWinMenu(isWhitesTurn ? "Black" : "White" + " won!", isWhitesTurn ? "Black" : "White" + " won by resignation");
                 break;
             default:
                 break;

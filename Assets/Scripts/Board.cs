@@ -135,7 +135,7 @@ public class Board : MonoBehaviour
         return fen;
     }
 
-    public void MovePiece(Move move){
+    public void MovePiece(Move move){ //NOTE: ADD NETWORK, ADD MOVEMENT ANIM
         moveIndex++;
         // Store current board positions
         previousSquares.Add(squares);
@@ -211,7 +211,7 @@ public class Board : MonoBehaviour
         return false;
     }
 
-    public void Promote(Coord coord, int newPiece){
+    public void Promote(Coord coord, int newPiece){ //NOTE: ADD NETWORK
         // Get piece from coord
         int piece = GetPieceFromCoord(coord);
         // Get color of piece
@@ -243,7 +243,6 @@ public class Board : MonoBehaviour
                     moves.AddRange(movesFromSquare);
                 }
             }
-
         }
 
         // Return moves list 

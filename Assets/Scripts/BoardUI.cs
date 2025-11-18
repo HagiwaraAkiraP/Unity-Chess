@@ -78,7 +78,7 @@ public class BoardUI : MonoBehaviour
         }
     }
 
-    public void UpdateBoard(Board board, bool flipBoard){
+    public void UpdateBoard(Board board, bool flipBoard){ //NOTE: Network this
         // Rotate board if flipped
         transform.GetChild(0).localRotation = Quaternion.Euler(0, 0, flipBoard ? 180 : 0);
 
@@ -92,7 +92,7 @@ public class BoardUI : MonoBehaviour
         }
     }
 
-    public void UpdatePiece(Coord coord, int piece, bool flipped){
+    public void UpdatePiece(Coord coord, int piece, bool flipped){ //NOTE: this is where piece anim should be done? No, this is just rendering the board
         // Get piece sprite from theme
         Sprite sprite = theme.GetPieceSprite(piece);
         // Get sprite renderer on coord
